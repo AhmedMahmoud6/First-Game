@@ -134,9 +134,7 @@ clock = pygame.time.Clock()
 game_active = False
 start_time = 0
 score = 0
-bg_music = pygame.mixer.Sound('UltimatePygameIntro-main/audio/الذبابة.mp3')
-bg_music.play(loops= -1)
-bg_music.set_volume(0.1)
+
 # Groups
 player = pygame.sprite.GroupSingle()
 player.add(Player())
